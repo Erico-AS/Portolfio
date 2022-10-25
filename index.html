@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,600;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="menu">
+        <div class="perfil-menu"></div>
+        <i id="icon" class="material-icons" onclick="cliqueMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="trabalhos.html">Projetos</a></li>
+            </ul>
+        </menu>
+    </nav>
+
+    <header>
+        <div id="img-perfil"></div>
+        <span class="bio">
+            <h1>Érico Augusto</h1>
+            <p>Técnico em Informática</p>
+        </span>
+        <h4 id="tel">Telefone:<a href="tel: +5531993541486" class="contatos"> +55 31 99354-1486</a></h4>
+        <h3 class="email">E-mail: <a href="mailto:ericoaugustosstj@gmail.com" class="contatos"> ericoaugustosstj@gmail.com </a></h3>
+    </header>
+
+    <section class="sobre-mim">
+        <h1>Sobre mim</h1>
+
+        <p>Tenho conhecimento em HTML, CSS, básico em Java Script e Python, C# Junior, bom conhecimento em ferramentas Google, manuseio de conta Zoom, conhecimento em OBS para compartilhamento de mídias.<br>
+
+            <br>Sou conhecido por ser responsável, confiável, proativo e pessoalmente sempre procuro melhorar minha personalidade. Faço isso por que é muito fácil perdemos de vista nossos bons critérios, então para continuarmos agindo bem o que me ajuda a é continuar estudando eles aprendendo novos a cada dia.<br>
+            
+            <br>No meu tempo livre consumo diversos conteúdos, estudo coisas novas, e gasto tempo tarefas do meu curso técnico. Atualmente estou a procura da minha primeira experiência profissionalizante.</p>
+    </section>
+
+    <section class="formacao">
+        <h1>Formação</h1>
+        <div class="bolinha1" id="bolinha1"></div>
+        <div class="bolinha1" id="bolinha2"></div>
+        <div class="linha"></div>
+
+        <div class="escola1"><h2>Sesi<br>
+                    2017/2020</h2></div>
+        <div class="escola2"><h2>Colégio Cotemig<br> 
+            2021/2023</h2></div>
+
+    </section>
+
+    <section class="conhecimentos">
+        <h1>Conhecimentos</h1>
+        <div class="c1">
+            <h5 class="c-titulo">HTML</h5>
+            <p class="c-numero">50% / Médio</p>
+            <div class="barra"><div class="barra-principal"></div></div>
+        </div>
+
+        <div class="c1" id="c2">
+            <h5 class="c-titulo">CSS</h5>
+            <p class="c-numero">50% / Médio</p>
+            <div class="barra" ><div class="barra-principal" id="barra-p-2"></div></div>
+        </div>
+
+        <div class="c1" id="c3">
+            <h5 class="c-titulo">C#</h5>
+            <p class="c-numero">60% / Médio</p>
+            <div class="barra"><div class="barra-principal" id="barra-p-3"></div></div>
+        </div>
+
+        <div class="c1" id="c4">
+            <h5 class="c-titulo">Python</h5>
+            <p class="c-numero">45% / Médio</p>
+            <div class="barra"><div class="barra-principal" id="barra-p-4"></div></div>
+        </div>
+
+        <div class="c1" id="c5">
+            <h5 class="c-titulo">SQL </h5>
+            <p class="c-numero">30% / Básico</p>
+            <div class="barra"><div class="barra-principal" id="barra-p-5"></div></div>
+        </div>
+
+        <div class="c1" id="c6">
+            <h5 class="c-titulo">Linux</h5>
+            <p class="c-numero">20% / Básico</p>
+            <div class="barra"><div class="barra-principal" id="barra-p-6"></div></div>
+        </div>
+
+        <div class="c1" id="c7">
+            <h5 class="c-titulo">Java Script</h5>
+            <p class="c-numero">10% / Básico</p>
+            <div class="barra"><div class="barra-principal" id="barra-p-7"></div></div>
+        </div>
+    </section>
+
+    <footer>
+        <a href="Currículo - 2022 .pdf" download="Currículo"><img src="Imagens/inscricao.png" class="curriculo"><figcaption>Currículo</figcaption></a>
+        <a href="https://github.com/Erico-AS"><img src="Imagens/github.png"><figcaption>Git Hub</figcaption></a>
+        <a href="https://www.linkedin.com/in/érico-augusto/"><img src="Imagens/linkedin (1).png"><figcaption>Linkedin</figcaption></a>
+    </footer>
+
+</body>
+<script>
+    function cliqueMenu() {
+        if (itens.style.display == 'flex'){
+            menu.style.width = '7vw'
+            menu.style.transition = '1.5s'
+            itens.style.transition = '1.5s'
+            itens.style.display = 'none'
+            document.getElementById("menu").style.boxShadow = '0.7vw 0vh 0.5vw 0.1vw rgba(0, 0, 0, 0.178)';
+        } else {
+            menu.style.width = '15vw'
+            menu.style.transition = '1.5s'
+            itens.style.transition = '1.5s'
+            itens.style.display = 'flex'
+            document.getElementById("menu").style.boxShadow = '2vw 0vh 0.5vw 0.1vw black';
+        }
+    }
+</script>
+</html>
