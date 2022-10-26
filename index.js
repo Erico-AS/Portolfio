@@ -18,10 +18,11 @@ function Impressao(texto) {
         3- Período de tempo do 'setTimeout' pode vir na última linha depois da vírgula, e por padrão é milesegundo
         4- Quando é apenas uma linha, não necessita de chaves.*/
     })
+    Impressao(texto2)
 }
 
 Impressao(texto) //Chamando a função com a constante no início
-Impressao(texto2)
+
 
 
 
