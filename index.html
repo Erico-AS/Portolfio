@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,600;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-    <title>Document</title>
+    <title>Erico-Portfolio</title>
 </head>
 <body>
     <nav id="menu">
@@ -26,11 +26,11 @@
     <header>
         <div id="img-perfil"></div>
         <span class="bio">
-            <h1>Érico Augusto</h1>
-            <p>Técnico em Informática</p>
+            <h1 class="Imp" id="Título">Érico Augusto</h1>
+            <p class="Imp">Técnico em Informática</p>
         </span>
         <h4 id="tel">Telefone:<a href="tel: +5531993541486" class="contatos"> +55 31 99354-1486</a></h4>
-        <h3 class="email">E-mail: <a href="mailto:ericoaugustosstj@gmail.com" class="contatos"> ericoaugustosstj@gmail.com </a></h3>
+        <h3 class="email ">E-mail: <a href="mailto:ericoaugustosstj@gmail.com" class="contatos"> ericoaugustosstj@gmail.com </a></h3>
     </header>
 
     <section class="sobre-mim">
@@ -108,21 +108,5 @@
     </footer>
 
 </body>
-<script>
-    function cliqueMenu() {
-        if (itens.style.display == 'flex'){
-            menu.style.width = '7vw'
-            menu.style.transition = '1.5s'
-            itens.style.transition = '1.5s'
-            itens.style.display = 'none'
-            document.getElementById("menu").style.boxShadow = '0.7vw 0vh 0.5vw 0.1vw rgba(0, 0, 0, 0.178)';
-        } else {
-            menu.style.width = '15vw'
-            menu.style.transition = '1.5s'
-            itens.style.transition = '1.5s'
-            itens.style.display = 'flex'
-            document.getElementById("menu").style.boxShadow = '2vw 0vh 0.5vw 0.1vw black';
-        }
-    }
-</script>
+<script src="index.js"></script>
 </html>
