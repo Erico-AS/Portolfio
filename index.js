@@ -1,6 +1,7 @@
 //Efeito impressão
 const texto = document.querySelector(".bio h1") //pegando elemento no HTML
 const texto2 = document.querySelector(".bio p")
+
 console.log(texto)
 
 function Impressao(texto) {
@@ -18,11 +19,11 @@ function Impressao(texto) {
         3- Período de tempo do 'setTimeout' pode vir na última linha depois da vírgula, e por padrão é milesegundo
         4- Quando é apenas uma linha, não necessita de chaves.*/
     })
-
 }
 
 Impressao(texto) //Chamando a função com a constante no início
 Impressao(texto2)
+
 
 
 
@@ -43,3 +44,11 @@ function cliqueMenu() {
         document.getElementById("menu").style.boxShadow = '2vw 0vh 0.5vw 0.1vw black';
     }
 }
+
+//Animação
+AOS.init({
+    duration: 1000,
+    once: true,
+    mirror:true,
+});
+

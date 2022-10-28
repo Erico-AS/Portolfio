@@ -126,6 +126,23 @@ header h1 {
     font-size: 6vw;
 }
 
+.titulo2::after {
+    content: "|";
+    margin-left: 5px;
+    opacity: 1;
+    animation: blink .7s infinite;
+}
+
+@keyframes blink /*'piscar'*/ {
+    0%, 100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
 /* Parte dos projetos */
 
 main {

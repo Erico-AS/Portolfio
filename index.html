@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,600;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Erico-Portfolio</title>
 </head>
 <body>
@@ -24,16 +25,16 @@
     </nav>
 
     <header>
-        <div id="img-perfil"></div>
+        <div id="img-perfil" data-aos="zoom-out"></div>
         <span class="bio">
             <h1 class="Imp" id="Título">Érico Augusto</h1>
             <p class="Imp">Técnico em Informática</p>
         </span>
-        <h4 id="tel">Telefone:<a href="tel: +5531993541486" class="contatos"> +55 31 99354-1486</a></h4>
-        <h3 class="email ">E-mail: <a href="mailto:ericoaugustosstj@gmail.com" class="contatos"> ericoaugustosstj@gmail.com </a></h3>
+        <h4 id="tel" data-aos="fade-left">Telefone:<a href="tel: +5531993541486" class="contatos"> +55 31 99354-1486</a></h4>
+        <h3 class="email" data-aos="fade-right">E-mail: <a href="mailto:ericoaugustosstj@gmail.com" class="contatos"> ericoaugustosstj@gmail.com </a></h3>
     </header>
 
-    <section class="sobre-mim">
+    <section class="sobre-mim" data-aos="fade-up">
         <h1>Sobre mim</h1>
 
         <p>Tenho conhecimento em HTML, CSS, básico em Java Script e Python, C# Junior, bom conhecimento em ferramentas Google, manuseio de conta Zoom, conhecimento em OBS para compartilhamento de mídias.<br>
@@ -44,57 +45,57 @@
     </section>
 
     <section class="formacao">
-        <h1>Formação</h1>
-        <div class="bolinha1" id="bolinha1"></div>
-        <div class="bolinha1" id="bolinha2"></div>
-        <div class="linha"></div>
+        <h1 data-aos="fade-in">Formação</h1>
+        <div class="bolinha1" id="bolinha1" data-aos="fade-up"></div>
+        <div class="bolinha1" id="bolinha2" data-aos="fade-up"></div>
+        <div class="linha" data-aos="fade-up"></div>
 
-        <div class="escola1"><h2>Sesi<br>
+        <div class="escola1" data-aos="fade-left"><h2>Sesi<br>
                     2017/2020</h2></div>
-        <div class="escola2"><h2>Colégio Cotemig<br> 
+        <div class="escola2" data-aos="fade-right"><h2>Colégio Cotemig<br> 
             2021/2023</h2></div>
 
     </section>
 
-    <section class="conhecimentos">
-        <h1>Conhecimentos</h1>
-        <div class="c1">
+    <section class="conhecimentos" data-aos="fade-up">
+        <h1 data-aos="fade-up">Conhecimentos</h1>
+        <div class="c1" data-aos="fade-up">
             <h5 class="c-titulo">HTML</h5>
             <p class="c-numero">50% / Médio</p>
             <div class="barra"><div class="barra-principal"></div></div>
         </div>
 
-        <div class="c1" id="c2">
+        <div class="c1" id="c2" data-aos="fade-up">
             <h5 class="c-titulo">CSS</h5>
             <p class="c-numero">50% / Médio</p>
             <div class="barra" ><div class="barra-principal" id="barra-p-2"></div></div>
         </div>
 
-        <div class="c1" id="c3">
+        <div class="c1" id="c3" data-aos="fade-up">
             <h5 class="c-titulo">C#</h5>
             <p class="c-numero">60% / Médio</p>
             <div class="barra"><div class="barra-principal" id="barra-p-3"></div></div>
         </div>
 
-        <div class="c1" id="c4">
+        <div class="c1" id="c4" data-aos="fade-up">
             <h5 class="c-titulo">Python</h5>
             <p class="c-numero">45% / Médio</p>
             <div class="barra"><div class="barra-principal" id="barra-p-4"></div></div>
         </div>
 
-        <div class="c1" id="c5">
+        <div class="c1" id="c5" data-aos="fade-up">
             <h5 class="c-titulo">SQL </h5>
             <p class="c-numero">30% / Básico</p>
             <div class="barra"><div class="barra-principal" id="barra-p-5"></div></div>
         </div>
 
-        <div class="c1" id="c6">
+        <div class="c1" id="c6" data-aos="fade-up">
             <h5 class="c-titulo">Linux</h5>
             <p class="c-numero">20% / Básico</p>
             <div class="barra"><div class="barra-principal" id="barra-p-6"></div></div>
         </div>
 
-        <div class="c1" id="c7">
+        <div class="c1" id="c7" data-aos="fade-up">
             <h5 class="c-titulo">Java Script</h5>
             <p class="c-numero">10% / Básico</p>
             <div class="barra"><div class="barra-principal" id="barra-p-7"></div></div>
@@ -106,6 +107,8 @@
         <a href="https://github.com/Erico-AS"><img src="Imagens/github.png"><figcaption>Git Hub</figcaption></a>
         <a href="https://www.linkedin.com/in/érico-augusto/"><img src="Imagens/linkedin (1).png"><figcaption>Linkedin</figcaption></a>
     </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
 </body>
 <script src="index.js"></script>

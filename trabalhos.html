@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;0,600;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="trabalhos.css" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Portfólio</title>
 </head>
 
@@ -25,31 +26,31 @@
     </nav>
 
     <header>
-        <h1>Projetos</h1>
+        <h1 class="titulo2" data-aos="fade-in">Projetos</h1>
     </header>
 
     <main>
-        <div class="p1">
+        <div class="p1" data-aos="fade-left">
             <a href="https://github.com/Erico-AS/Clone-Cotemig"><img src="Imagens/cotemig.jpg" width="250vw" height="250vh"></a>
             <figcaption>Réplica Cotemig</figcaption>
         </div>
-        <div class="p2">
+        <div class="p2" data-aos="fade-right">
             <a href="https://github.com/Erico-AS/SQL"><img src="Imagens/sql.jpg" width="250vw" height="250vh"></a>
             <figcaption>SQL</figcaption>
         </div>
-        <div class="p3">
+        <div class="p3" data-aos="fade-left">
             <a href="https://github.com/Erico-AS/C-Sharp"><img src="Imagens/cSharp.svg" width="250vw" height="250vh"></a>
             <figcaption>C#</figcaption>
         </div>
-        <div class="p4">
+        <div class="p4" data-aos="fade-right">
             <a href="https://github.com/Erico-AS/Geracao-Tech-Unimed-BH---Ciencia-de-Dados"><img src="Imagens/bootcamp.png" width="250vw" height="250vh"></a>
             <figcaption>Bootcamp Unimed</figcaption>
         </div>
-        <div class="p5">
+        <div class="p5" data-aos="fade-left">
             <a href="https://github.com/Erico-AS/URB-E-commerce"><img src="Imagens/URB.png" width="250vw" height="200vh"></a>
             <figcaption>URB / E-commerce</figcaption>
         </div>
-        <div class="p6">
+        <div class="p6" data-aos="fade-right">
             <a href="https://github.com/Erico-AS/Calculadora_Basica"><img src="Imagens/calc.jpg" width="250vw" height="250vh"></a>
             <figcaption>Cálculadora básica C#</figcaption>
         </div>
@@ -60,22 +61,8 @@
         <a href="https://github.com/Erico-AS" target="blank"><img src="Imagens/github.png"><figcaption>Git Hub</figcaption></a>
         <a href="https://www.linkedin.com/in/érico-augusto/" target="blank"><img src="Imagens/linkedin (1).png"><figcaption>Linkedin</figcaption></a>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </body>
-<script>
-    function cliqueMenu() {
-        if (itens.style.display == 'flex'){
-            menu.style.width = '7vw'
-            menu.style.transition = '1.5s'
-            itens.style.transition = '1.5s'
-            itens.style.display = 'none'
-            document.getElementById("menu").style.boxShadow = '0.7vw 0vh 0.5vw 0.1vw rgba(0, 0, 0, 0.178)';
-        } else {
-            menu.style.width = '15vw'
-            menu.style.transition = '1.5s'
-            itens.style.transition = '1.5s'
-            itens.style.display = 'flex'
-            document.getElementById("menu").style.boxShadow = '2vw 0vh 0.5vw 0.1vw black';
-        }
-    }
-</script>
+<script src="trabalhos.js"></script>
 </html>
