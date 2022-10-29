@@ -24,15 +24,15 @@ AOS.init({
 function cliqueMenu() {
     if (itens.style.display == 'flex'){
         menu.style.width = '7vw'
-        menu.style.transition = '1.5s'
+        menu.style.transition = '1s'
         itens.style.transition = '1.5s'
         itens.style.display = 'none'
         document.getElementById("menu").style.boxShadow = '0.7vw 0vh 0.5vw 0.1vw rgba(0, 0, 0, 0.178)';
     } else {
         menu.style.width = '15vw'
-        menu.style.transition = '1.5s'
+        menu.style.transition = '1s'
         itens.style.transition = '1.5s'
         itens.style.display = 'flex'
-        document.getElementById("menu").style.boxShadow = '2vw 0vh 0.5vw 0.1vw black';
+        document.getElementById("menu").style.boxShadow = '2vw 0vh 0.5vw 100vw rgba(0, 0, 0, 0.500)';
     }
 }
