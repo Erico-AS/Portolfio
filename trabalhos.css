@@ -40,10 +40,19 @@ body {
     font-family: 'Inter Tight', sans-serif;
     color: white;
     background-color: var(--color-bg);
+    background-image: radial-gradient(
+        rgba(2255, 255, 255, 0.1) 9%,
+        transparent 9%
+    );
+    background-color: var(--color-bg);
+    background-position: 0% 0%;
+    background-size: 12vmin 12vmin;
+    left: 0;
+    top: 0;
 
     display: grid;
     grid-template-rows: 40vh 150vh 30vh;
-    row-gap: 15vh;
+    row-gap: 30vh;
 
 }
 
@@ -163,6 +172,16 @@ main {
 .p4{grid-area: p4;}
 .p5{grid-area: p5;}
 .p6{grid-area: p6;}
+
+.img-tamanho1 {
+    width: 25vw;
+    height: 50vh;
+}
+
+.img-tamanho2 {
+    width: 30vw;
+    height: 40vh;
+}
 
 figcaption {
     color: white;
