@@ -27,12 +27,14 @@ function cliqueMenu() {
         menu.style.transition = '1s'
         itens.style.transition = '1.5s'
         itens.style.display = 'none'
+        document.getElementById('icon').innerText = 'menu'
         document.getElementById("menu").style.boxShadow = '0.7vw 0vh 0.5vw 0.1vw rgba(0, 0, 0, 0.178)';
     } else {
         menu.style.width = '15vw'
         menu.style.transition = '1s'
         itens.style.transition = '1.5s'
         itens.style.display = 'flex'
-        document.getElementById("menu").style.boxShadow = '2vw 0vh 0.5vw 100vw rgba(0, 0, 0, 0.500)';
+        document.getElementById('icon').innerText = 'close'
+        document.getElementById("menu").style.boxShadow = '2vw 0vh 0.5vw 200vw rgba(0, 0, 0, 0.500)';
     }
 }
