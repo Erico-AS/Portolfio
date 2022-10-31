@@ -13,6 +13,7 @@ Telas grandes > 1200
 @media only screen and (max-width: 768px) {
     body {
         grid-template-rows: 35vh 1fr;
+        row-gap: 10vh;
     }
 
     /*Menu*/
