@@ -11,26 +11,26 @@ Telas grandes > 1200
 */
 
 @media only screen and (max-width: 768px) {
+    
     body {
         grid-template-rows: 35vh 1fr;
         row-gap: 10vh;
-        overflow: hidden;
     }
 
     /*Menu*/
 
     nav {
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    z-index: 2;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 2;
 
 
-    background-color: var(--color-bg);
+        background-color: var(--color-bg);
 
-    width: 100% !important;
-    height: 7% !important; 
+        width: 100% !important;
+        height: 7% !important; 
 
     }
 
